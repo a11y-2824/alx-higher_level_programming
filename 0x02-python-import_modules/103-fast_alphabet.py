@@ -1,2 +1,3 @@
-#!/usr/bin/python
-import alphabet
+#!/usr/bin/python3
+if __name__ == "__main__":
+    import alphabet
