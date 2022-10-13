@@ -1,7 +1,8 @@
 #!/usr/biin/python3
 
-"Define class"
+""""Define class"""
 class Square
 
-"Make the class empty"
-	pass
+
+"""Make the class empty"""
+pass
