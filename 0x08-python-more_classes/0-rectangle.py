@@ -1,8 +1,9 @@
 #!/usr/bin/python3
 
 
-'''create an empty class'''
+'''create a class'''
 
 
 class Rectangle:
+    '''Make the class empty'''
     pass
