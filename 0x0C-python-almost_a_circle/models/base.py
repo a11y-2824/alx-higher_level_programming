@@ -1,4 +1,6 @@
 #!/usr/bin/python3
+
+
 """Import modules"""
 import json
 import csv
@@ -6,14 +8,16 @@ import turtle
 
 
 """Define a class"""
+
+
 class Base:
     """Create an attribute for the class """
 
     __nb_objects = 0
     """Initialize a new Base argument"""
     def __init__(self, id=None):
-        
-	"""Create a loop"""
+
+        """Create a loop"""
         if id is not None:
             self.id = id
         else:
@@ -27,7 +31,7 @@ class Base:
             return "[]"
         return json.dumps(list_dictionaries)
 
-    """Write a JSON serialization loop """   
+    """Write a JSON serialization loop """
     @classmethod
     def save_to_file(cls, list_objs):
         filename = cls.__name__ + ".json"
@@ -58,7 +62,7 @@ class Base:
 
     """Return a list of classes with an exception"""
     @classmethod
-    def load_from_file(cls):   
+    def load_from_file(cls):
         filename = str(cls.__name__) + ".json"
         try:
             with open(filename, "r") as jsonfile:
