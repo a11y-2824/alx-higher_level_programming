@@ -5,20 +5,20 @@
 from models.base import Base
 
 '''create a new class'''
+
+
 class Rectangle:
+    '''Assign private instance attributes with getters and setters'''
+    '''Create a class constructor'''
+    def __init__(self, width, height, x=0, y=0, id=None):
+        '''Call the super class with id from Base class'''
+        '''Assign the arguemnts to th attributes'''
+        self.width = width
+        self.height = height
+        self.x = x
+        self.y = y
+    super().__init__(id)
 
-
-'''assign private instance attributes with getters and setters'''
-'''create a class constructor'''
-	def __init__(self, width, height, x=0, y=0, id=None):
-	'''call the super class with id from Base class'''
-	'''Assign the arguemnts to th attributes'''
-	self.width = width
-	self.height = height
-	self.x = x
-	self.y = y
- super().__init__(id)
- 
     '''Set the width of the rectangle'''
     @property
     def width(self):
