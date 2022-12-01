@@ -1,5 +1,6 @@
 # SQL More Queries
 
+![image](https://user-images.githubusercontent.com/96468875/204949844-d3ba5b99-5eb5-44e9-b881-9d90fb6b1fea.png)
 
 
 # Learning Objectives
